@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+.slider-item
+    outline: unset
+    &:focus
+        outline: unset
+        
+
+*
+    font-family: Open Sans
+a
+    color: #fff 
+    text-decoration: none
+ul
+    margin: 0
+    padding: 0
+    list-style-type: none
+
+    li 
+
+h1, h2, h3, h4, h5, p 
+    margin: 0
+    padding: 0
+.container
+    height: 100%
+    max-width: 1170px
+    margin: 0 auto
+.header
+    height: 100vh
+    width: 100%
+    background-image: url('img/header.jpg')
+    background-size: cover 
+    background-repeat: no-repeat
+    background-position: center
+    color: #fff
+    nav 
+        width: calc(100vw - 20vw)
+        padding: 0 10vw
+        position: fixed
+        display: flex
+        background-color: rgba(16, 22, 54, 0.2)
+        justify-content: space-between
+        align-items: center
+        z-index: 999
+        .left-side
+            display: flex
+            margin-top: 1.3em
+            align-items: center
+            .logo
+            span
+                font-size: 20px
+                font-weight: 700
+                color: #0b2429
+                
+            .introduce
+                color: #4a5455
+
+        ul
+            
+            display: flex
+            li
+                padding-bottom: 1em
+                padding-top: 2em
+                &:not(:first-child)
+                    padding-left: 1em
+    .greeting
+        text-align: center
+        height: 90%
+        display: flex 
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        h1
+            font-size: 3.8em
+            font-weight: 400
+            margin-bottom: 0.2em
+            span
+                font-weight: 700
+            
+        .about
+            margin-bottom: 0.4em
+            font-size: 2.8em
+            span
+                color: #0f9f6c
+        .description
+    .soc 
+        width: 100px
+        padding-top: 2em
+        margin: 0 auto
+        display: flex 
+        justify-content: space-between 
+        align-content: center
+            
+    .container
+
+.features
+    background-color: #f4f7f9
+    padding-top: 1.5em
+    padding-bottom: 2em
+
+    h2
+        padding-top: 4em
+        color: #0eb493
+        text-align: center
+        margin-bottom: 1em
+
+    .separator
+        display: flex
+        justify-content: center
+        align-content: center
+        span
+            width: 100px
+            height: 1px
+            background-color: #a39c9c54
+            margin: 5px
+        .fa-heart
+            color: #a39c9c83
+        
+    .slider
+        margin-top: 4em
+
+        .slick-dots
+            width: 100%
+            margin-top: 6em
+            text-align: center
+            .slick-active
+                button:before
+                    opacity: 1
+            li
+                position: relative
+                display: inline-block
+                width: 20px
+                height: 20px
+                margin: 0 5px
+                padding: 0
+                cursor: pointer
+                button
+                    font-size: 0
+                    line-height: 0
+                    display: block
+                    width: 20px
+                    height: 20px
+                    padding: 5px
+                    cursor: pointer
+                    color: transparent
+                    border: 0
+                    outline: none
+                    background: transparent
+                    &:before
+                        font-family: 'slick'
+                        font-size: 2rem
+                        line-height: 20px
+                        position: absolute
+                        top: 0
+                        left: 0
+                        width: 20px
+                        height: 20px
+                        content: '•'
+                        text-align: center
+                        opacity: .25
+                        color: black
+
+
+    .slider-item
+        margin-left: 10px
+        // width: 357px
+        position: relative
+        padding-left: 50px
+        .title 
+            font-size: 1.250em
+            font-weight: 700
+            margin-bottom: 1em
+        img
+            position: absolute
+            left: 0
+            right: 0
+            width: 40px
+            height: 40px
+        
+
+.works
+    padding-top: 1.5em
+    padding-bottom: 2em
+    .container
+    h2
+        padding-top: 2em
+        color: #0eb493
+        text-align: center
+        margin-bottom: 1em
+
+    .separator
+        display: flex
+        justify-content: center
+        align-content: center
+        span
+            width: 100px
+            height: 1px
+            background-color: #a39c9c54
+            margin: 5px
+        .fa-heart
+            color: #a39c9c83
+    
+    .description
+        font-size: 1.2em
+        padding-top: 2em
+        text-align: center
+        line-height: 1.333
+        max-width: 970px
+        margin: 0 auto
+        margin-bottom: 3em
+    .filter
+        display: flex 
+        justify-content: center
+        li
+            &:not(:first-child)
+                padding-left: 1em
+    .flex-list
+        display: flex
+        flex-wrap: wrap
+        .list-item
+            width: 25%
+            img
+                width: 100%
+        .hide
+            display: none
+
